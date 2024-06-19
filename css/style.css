@@ -176,13 +176,21 @@ body {
 }
 
 .L-img {
-    height: 240%;
+    height: 100%;
+    max-height: 80px;
+    width: auto;
     margin-top: 5px;
 }
 
 .nav-items {
-    height: 22px;
-    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-items .icon {
+    height: 100%;
+    max-height: 30px;
+    width: auto;
 }
 
 .icon {
@@ -190,6 +198,7 @@ body {
     cursor: pointer;
     margin: 0 10px;
     display: inline-block;
+    max-height: 40px;
 }
 
 .main {
